@@ -7,18 +7,9 @@
 </head>
 <body>
   <!--Menu de navegação-->
-  <header id="menu">
-      <img src="img/logo.png" alt="Logo da cafeteria" style="width:128px;height:128px;">
-      <h2>Endereço:</h2>
-      <p>Rua das Acácias, 245 – Centro
-         Cerquilho, SP – CEP 18520-000</p>
-      <h2>Horário de funcionamento:</h2>
-      <p>Segunda a Sexta: 7h às 20h
-         Sábados: 8h às 22h
-         Domingos: 8h às 18h</p>
+  <header>
       <nav>
         <li>
-            <ul><a href=#"menu">Menu de Navegação</a></ul>
             <ul><a href="#inicio">Início</a></ul>
             <ul><a href="#cardapio">Cardápio</a></ul>
             <ul><a href="sobre">Sobre nós</a></ul>
@@ -27,113 +18,122 @@
             <ul><a href=#"avaliacao">Avaliação</a></ul>
         </li>
       </nav>
+      <img src="img/logo.png" alt="Logo da cafeteria" style="width:128px;height:128px;">
  </header>
-  
-  <!--Seção de início-->
-  <section id="inicio">
-    <h1>Café-Aroma</h1>
-    <img src="img/cafeteria.jpg" alt="Nossa cafeteria" style="width:128px;height:128px;">
-    <p>O aroma perfeito para começar o seu dia! Venha nos visitar e experimentar nosso delicioso cardápio!</p>
-    <p id="cardapio">Veja nosso cardápio!</p>
-    <p>Voltar para o <a href=#"menu">inicio</a> da página.</p>
-  </section>
 
-  <!--Seção do cardápio-->
-  <section id="cardapio">
-    <h2>Cardápio</h2>
-    <dl>
-        <h3>Espresso</h3>
-        <img src="img/espresso.jpg" alt="Espresso" style="width:128px;height:128px;">
-        <dd>Café intenso e encorpado, preparado com grãos selecionados e 
-          servido em uma pequena dose para destacar todo o aroma e sabor.</dd>
-        <dd>Preço: R$7,00</dd>
-        <h3>Cappuccino</h3>
-        <img src="img/cappuccino.jpg" alt="Cappuccino" style="width:128px;height:128px;">
-        <dd>Combinação equilibrada de café espresso, leite vaporizado e espuma cremosa, 
-          finalizada com um toque de canela ou chocolate em pó.</dd>
-        <dd>Preço: R$12,00</dd>
-        <h3>Mocha</h3>
-        <img src="img/mocha.jpg" alt="Mocha" style="width:128px;height:128px;">
-        <dd>Bebida que une espresso, leite vaporizado e chocolate, criando um sabor suave e levemente adocicado.</dd>
-        <dd>Preço: R$14,00</dd>
-        <h3>Croissant</h3>
-        <img src="img/croissant.jpg" alt="Croissant" style="width:128px;height:128px;">
-        <dd>Massa folhada amanteigada, assada diariamente para garantir textura crocante por fora e macia por dentro.</dd>
-        <dd>Preço: R$10,00</dd>
-        <h3>Cheesecake</h3>
-        <img src="img/cheesecake.jpg" alt="Cheesecake" style="width:128px;height:128px;">
-        <dd>Sobremesa cremosa à base de cream cheese sobre uma base crocante de biscoito, coberta com calda de frutas vermelhas.</dd>
-        <dd>Preço: R$15,00</dd>
-        <h3>Brownie</h3>
-        <img src="img/brownie.jpg" alt="Brownie" style="width:128px;height:128px;">
-        <dd>Brownie de chocolate com casquinha crocante e interior macio, preparado com ingredientes selecionados para um sabor marcante.</dd>
-        <dd>Preço: R$8,00</dd>
-    </dl>
-  </section>
-
-  <!--Seção do sobre nós-->
-  <section id="sobre">
-    <h2>Sobre nós</h2>
-    <p>Bem-vindo ao Café Aroma, um lugar criado para quem aprecia bons cafés, deliciosos acompanhamentos e momentos especiais. 
-      Desde 2018, nossa missão é oferecer uma experiência acolhedora, combinando grãos selecionados, receitas artesanais e um 
-      ambiente confortável para reunir amigos, trabalhar ou simplesmente relaxar.</p>
-      <p>Acreditamos que cada xícara de café conta uma história. Por isso, selecionamos cuidadosamente nossos ingredientes e 
-      preparamos cada bebida com dedicação, garantindo qualidade e sabor em cada detalhe. Além dos cafés especiais, oferecemos 
-      uma variedade de doces e salgados produzidos diariamente para tornar sua visita ainda mais agradável.</p>
-      <p>No Café Aroma, mais do que servir bebidas e alimentos, buscamos criar um espaço onde as pessoas possam desacelerar, 
-      conversar e aproveitar os pequenos momentos que tornam o dia melhor. Seja para um café rápido pela manhã ou para uma 
-      tarde tranquila, estamos sempre prontos para recebê-lo com um sorriso e um aroma irresistível de café fresco.</p>
-    <!--imagem-->
-  </section>
-
-<!--Seção do diferencial-->
-    <section id="diferencial">
-        <h2>Nossos Diferenciais</h2>
-        <p>No Café Aroma, buscamos oferecer muito mais do que um simples café. Conheça alguns dos nossos diferenciais:</p>
+  <main>
+      <!--Seção de início-->
+      <section id="inicio">
+        <h1>Café-Aroma</h1>
+        <img src="img/cafeteria.jpg" alt="Nossa cafeteria" style="width:128px;height:128px;">
+        <p>O aroma perfeito para começar o seu dia! Venha nos visitar e experimentar nosso delicioso cardápio!</p>
+        <h2>Endereço:</h2>
+        <p>Rua das Acácias, 245 – Centro
+             Cerquilho, SP – CEP 18520-000</p>
+        <h2>Horário de funcionamento:</h2>
+        <p>Segunda a Sexta: 7h às 20h
+             Sábados: 8h às 22h
+             Domingos: 8h às 18h</p>
+        <button id="cardapio">Veja nosso cardápio</button>
+      </section>
+    
+      <!--Seção do cardápio-->
+      <section id="cardapio">
+        <h2>Cardápio</h2>
         <dl>
-            <h3>☕ Cafés Especiais</h3>
-            <dd>Trabalhamos com grãos cuidadosamente selecionados para garantir sabor, aroma e qualidade em cada xícara.</dd>
-            <h3>🍰 Doces Artesanais</h3>
-            <dd>Nossos doces são preparados com ingredientes de qualidade e receitas que valorizam o sabor caseiro.</dd>
-            <h3>📶 Wi-Fi Gratuito</h3>
-            <dd>Internet rápida e gratuita para quem deseja estudar, trabalhar ou navegar enquanto aproveita o café.</dd>
-            <h3>🪑 Ambiente Confortável</h3>
-            <dd>Espaço acolhedor, com decoração moderna e mesas confortáveis para momentos de lazer ou produtividade.</dd>
-            <h3>🌱 Ingredientes Selecionados</h3>
-            <dd>Priorizamos ingredientes frescos e de alta qualidade em todas as nossas bebidas e alimentos.</dd>
-            <h3>😊 Atendimento Atencioso</h3>
-            <dd>Nossa equipe está sempre pronta para receber cada cliente com simpatia e dedicação.</dd>
-            <h3>🕒 Perfeito para Qualquer Momento</h3>
-            <dd>Seja para um café da manhã, uma pausa durante o trabalho ou um encontro com amigos, o Café Aroma é o lugar ideal.</dd>
+            <h3>Espresso</h3>
+            <img src="img/espresso.jpg" alt="Espresso" style="width:128px;height:128px;">
+            <dd>Café intenso e encorpado, preparado com grãos selecionados e 
+              servido em uma pequena dose para destacar todo o aroma e sabor.</dd>
+            <dd>Preço: R$7,00</dd>
+            <h3>Cappuccino</h3>
+            <img src="img/cappuccino.jpg" alt="Cappuccino" style="width:128px;height:128px;">
+            <dd>Combinação equilibrada de café espresso, leite vaporizado e espuma cremosa, 
+              finalizada com um toque de canela ou chocolate em pó.</dd>
+            <dd>Preço: R$12,00</dd>
+            <h3>Mocha</h3>
+            <img src="img/mocha.jpg" alt="Mocha" style="width:128px;height:128px;">
+            <dd>Bebida que une espresso, leite vaporizado e chocolate, criando um sabor suave e levemente adocicado.</dd>
+            <dd>Preço: R$14,00</dd>
+            <h3>Croissant</h3>
+            <img src="img/croissant.jpg" alt="Croissant" style="width:128px;height:128px;">
+            <dd>Massa folhada amanteigada, assada diariamente para garantir textura crocante por fora e macia por dentro.</dd>
+            <dd>Preço: R$10,00</dd>
+            <h3>Cheesecake</h3>
+            <img src="img/cheesecake.jpg" alt="Cheesecake" style="width:128px;height:128px;">
+            <dd>Sobremesa cremosa à base de cream cheese sobre uma base crocante de biscoito, coberta com calda de frutas vermelhas.</dd>
+            <dd>Preço: R$15,00</dd>
+            <h3>Brownie</h3>
+            <img src="img/brownie.jpg" alt="Brownie" style="width:128px;height:128px;">
+            <dd>Brownie de chocolate com casquinha crocante e interior macio, preparado com ingredientes selecionados para um sabor marcante.</dd>
+            <dd>Preço: R$8,00</dd>
         </dl>
-        <p>Mais do que uma cafeteria, um espaço para criar boas lembranças e aproveitar momentos especiais.</p>
-    </section>
-
-    <!--Seção da avaliação-->
-    <section id="avaliacao">
-        <h2>Avaliação dos nossos clientes</h2>
-        <li>
-            <h4>Ana Silva</h4>
-            <ul>"Ambiente muito agradável e aconchegante. O cappuccino é simplesmente maravilhoso e os atendentes são muito simpáticos!"</ul>
-            <h4>Carlos Oliveira</h4>
-            <ul>"Ótimo lugar para estudar e trabalhar. O Wi-Fi funciona muito bem e o café sempre chega quentinho e saboroso."</ul>
-            <h4>Mariana Costa</h4>
-            <ul>"Os doces artesanais são deliciosos! Experimentei o cheesecake e fiquei encantada. Com certeza voltarei mais vezes."</ul>
-            <h4>Lucas Pereira</h4>
-            <ul>"O melhor espresso que já tomei na região. Dá para perceber a qualidade dos grãos e o cuidado no preparo."</ul>
-            <h4>Fernanda Souza</h4>
-            <ul>"Adorei a experiência! Ambiente confortável, atendimento excelente e um brownie incrível para acompanhar o café."</ul>
-        </li>
-    </section>
-  
-    <!--Seção do contato-->
-    <section id="contato">
-        <h2>Nosso contato</h2>
-        <p>Entre em contato conosco e visite nossas redes sociais</p>
-        <p>Nosso telefone: (10)12345-6789</p>
-        <a href="https://www.instagram.com/" target="_blank">Nosso instagram</a>
-        <a href="https://www.tiktok.com/pt-BR/" target="_blank">Nosso tiktok</a>
-        <a href="contato@cafearoma.com.br">Send email</a>
-    </section>
+      </section>
+    
+      <!--Seção do sobre nós-->
+      <section id="sobre">
+        <h2>Sobre nós</h2>
+        <p>Bem-vindo ao Café Aroma, um lugar criado para quem aprecia bons cafés, deliciosos acompanhamentos e momentos especiais. 
+          Desde 2018, nossa missão é oferecer uma experiência acolhedora, combinando grãos selecionados, receitas artesanais e um 
+          ambiente confortável para reunir amigos, trabalhar ou simplesmente relaxar.</p>
+          <p>Acreditamos que cada xícara de café conta uma história. Por isso, selecionamos cuidadosamente nossos ingredientes e 
+          preparamos cada bebida com dedicação, garantindo qualidade e sabor em cada detalhe. Além dos cafés especiais, oferecemos 
+          uma variedade de doces e salgados produzidos diariamente para tornar sua visita ainda mais agradável.</p>
+          <p>No Café Aroma, mais do que servir bebidas e alimentos, buscamos criar um espaço onde as pessoas possam desacelerar, 
+          conversar e aproveitar os pequenos momentos que tornam o dia melhor. Seja para um café rápido pela manhã ou para uma 
+          tarde tranquila, estamos sempre prontos para recebê-lo com um sorriso e um aroma irresistível de café fresco.</p>
+        <!--imagem-->
+      </section>
+    
+    <!--Seção do diferencial-->
+        <section id="diferencial">
+            <h2>Nossos Diferenciais</h2>
+            <p>No Café Aroma, buscamos oferecer muito mais do que um simples café. Conheça alguns dos nossos diferenciais:</p>
+            <dl>
+                <h3>Cafés Especiais</h3>
+                <dd>Trabalhamos com grãos cuidadosamente selecionados para garantir sabor, aroma e qualidade em cada xícara.</dd>
+                <h3>Doces Artesanais</h3>
+                <dd>Nossos doces são preparados com ingredientes de qualidade e receitas que valorizam o sabor caseiro.</dd>
+                <h3>Wi-Fi Gratuito</h3>
+                <dd>Internet rápida e gratuita para quem deseja estudar, trabalhar ou navegar enquanto aproveita o café.</dd>
+                <h3>Ambiente Confortável</h3>
+                <dd>Espaço acolhedor, com decoração moderna e mesas confortáveis para momentos de lazer ou produtividade.</dd>
+                <h3>Ingredientes Selecionados</h3>
+                <dd>Priorizamos ingredientes frescos e de alta qualidade em todas as nossas bebidas e alimentos.</dd>
+                <h3>Atendimento Atencioso</h3>
+                <dd>Nossa equipe está sempre pronta para receber cada cliente com simpatia e dedicação.</dd>
+                <h3>Perfeito para Qualquer Momento</h3>
+                <dd>Seja para um café da manhã, uma pausa durante o trabalho ou um encontro com amigos, o Café Aroma é o lugar ideal.</dd>
+            </dl>
+            <p>Mais do que uma cafeteria, um espaço para criar boas lembranças e aproveitar momentos especiais.</p>
+        </section>
+    
+        <!--Seção da avaliação-->
+        <section id="avaliacao">
+            <h2>Avaliação dos nossos clientes</h2>
+            <li>
+                <h4>Ana Silva</h4>
+                <ul>"Ambiente muito agradável e aconchegante. O cappuccino é simplesmente maravilhoso e os atendentes são muito simpáticos!"</ul>
+                <h4>Carlos Oliveira</h4>
+                <ul>"Ótimo lugar para estudar e trabalhar. O Wi-Fi funciona muito bem e o café sempre chega quentinho e saboroso."</ul>
+                <h4>Mariana Costa</h4>
+                <ul>"Os doces artesanais são deliciosos! Experimentei o cheesecake e fiquei encantada. Com certeza voltarei mais vezes."</ul>
+                <h4>Lucas Pereira</h4>
+                <ul>"O melhor espresso que já tomei na região. Dá para perceber a qualidade dos grãos e o cuidado no preparo."</ul>
+                <h4>Fernanda Souza</h4>
+                <ul>"Adorei a experiência! Ambiente confortável, atendimento excelente e um brownie incrível para acompanhar o café."</ul>
+            </li>
+        </section>
+      
+        <!--Seção do contato-->
+        <section id="contato">
+            <h2>Nosso contato</h2>
+            <p>Entre em contato conosco e visite nossas redes sociais</p>
+            <p>Nosso telefone: (10)12345-6789</p>
+            <a href="https://www.instagram.com/" target="_blank">Nosso instagram</a>
+            <a href="https://www.tiktok.com/pt-BR/" target="_blank">Nosso tiktok</a>
+            <a href="contato@cafearoma.com.br">Send email</a>
+        </section>
+    </main>
 </body>
 </html>
